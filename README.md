@@ -69,15 +69,16 @@ Pre-LLM MID mainly targets human-authored misinformation and learns detection si
 - **A Stylometric Inquiry into Hyperpartisan and Fake News**. ACL, 2018. [[paper](https://aclanthology.org/P18-1022/)]
 - **Automatic Detection of Fake News**. COLING, 2018. [[paper](https://aclanthology.org/C18-1287/)]
 - **LUX (Linguistic Aspects Under Examination): Discourse Analysis for Automatic Fake News Classification**. ACL-IJCNLP, 2021. [[paper](https://aclanthology.org/2021.findings-acl.4/)]
-- **Demystifying Neural Fake News via Linguistic Feature-Based Interpretation**. COLING, 2022.
 - **Linguistic Features Based Framework for Automatic Fake News Detection**. Computers & Industrial Engineering, 2022. [[paper](https://www.sciencedirect.com/science/article/pii/S0360835222004697)]
 - **Bridging Thoughts and Words: Graph-Based Intent-Semantic Joint Learning for Fake News Detection**. CIKM, 2025. [[paper](https://dl.acm.org/doi/abs/10.1145/3746252.3761400)]
+- **Demystifying Neural Fake New via Linguistic Feature-based Interpretation**(https://aclanthology.org/2022.coling-1.573)
+
 
 ### Context-based MID
 
 - **Beyond News Contents: The Role of Social Context for Fake News Detection**. WSDM, 2019. [[paper](https://dl.acm.org/doi/abs/10.1145/3289600.3290994)]
 - **Rumor Detection on Social Media with Bi-Directional Graph Convolutional Networks**. AAAI, 2020. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5393)]
-- **Social Bots Detection via Fusing BERT and Graph Convolutional Networks**. Symmetry, 2021.
+- **Social Bots Detection via Fusing BERT and Graph Convolutional Networks**. Symmetry, 2021.[[paper](http://www.mdpi.com/2073-8994/14/1/30)]
 - **Fake News Detection Based on News Content and Social Contexts: A Transformer-Based Approach**. International Journal of Data Science and Analytics, 2022. [[paper](https://doi.org/10.1007/s41060-021-00302-z)]
 - **Zoom Out and Observe: News Environment Perception for Fake News Detection**. ACL, 2022. [[paper](https://aclanthology.org/2022.acl-long.311/)]
 - **Detecting Social Media Manipulation in Low-Resource Languages**. WWW Companion, 2023. [[paper](https://dl.acm.org/doi/abs/10.1145/3543873.3587615)]
@@ -90,10 +91,10 @@ Pre-LLM MID mainly targets human-authored misinformation and learns detection si
 - **ClaimBuster: The First-ever End-to-end Fact-checking System**. VLDB, 2017. [[paper](https://ranger.uta.edu/~cli/pubs/2017/claimbuster-vldb17demo-hassan.pdf)]
 - **Compare to the Knowledge: Graph Neural Fake News Detection with External Knowledge**. ACL-IJCNLP, 2021. [[paper](https://aclanthology.org/2021.acl-long.62/)]
 - **FACE-KEG: Fact Checking Explained Using Knowledge Graphs**. WSDM, 2021. [[paper](https://dl.acm.org/doi/abs/10.1145/3437963.3441828)]
-- **Incorporating Relational Knowledge in Explainable Fake News Detection**. PAKDD, 2021.
+- **Incorporating Relational Knowledge in Explainable Fake News Detection**. PAKDD, 2021.[[paper](https://link.springer.com/chapter/10.1007/978-3-030-75768-7_32)]
 - **KAN: Knowledge-Aware Attention Network for Fake News Detection**. AAAI, 2021. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16080)]
-- **Claim-Dissector: An Interpretable Fact-Checking System with Joint Re-ranking and Veracity Prediction**. arXiv, 2022. [[paper](https://arxiv.org/abs/2207.14116)]
-- **Generating Literal and Implied Subquestions to Fact-check Complex Claims**. EMNLP, 2022. [[paper](https://arxiv.org/abs/2205.06938)]
+- **Claim-Dissector: An Interpretable Fact-Checking System with Joint Re-ranking and Veracity Prediction**. ACL, 2023. [[paper](https://aclanthology.org/2023.findings-acl.647/)]
+- **Generating Literal and Implied Subquestions to Fact-check Complex Claims**. EMNLP, 2022. [[paper](https://aclanthology.org/2022.emnlp-main.229/)]
 - **Towards Fine-Grained Reasoning for Fake News Detection**. AAAI, 2022. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20517)]
 - **FactKG: Fact Verification via Reasoning on Knowledge Graphs**. ACL, 2023. [[paper](https://aclanthology.org/2023.acl-long.895/)]
 - **Fact or Fiction? Improving Fact Verification with Knowledge Graphs through Simplified Subgraph Retrievals**. FEVER, 2024. [[paper](https://aclanthology.org/2024.fever-1.32/)]
@@ -114,14 +115,14 @@ LLMs augment existing MID pipelines through reasoning, retrieval, context recons
 ### Reasoning
 
 - **Bad Actor, Good Advisor: Exploring the Role of Large Language Models in Fake News Detection**. AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/30214)]
-- **Large Language Model Agent for Fake News Detection**. arXiv, 2024. [[paper](https://arxiv.org/abs/2405.01593)]
+- **Large Language Model Agent for Fake News Detection**. IEEE, 2024. [[paper](https://ieeexplore.ieee.org/abstract/document/10826000)]
 - **TELLER: A Trustworthy Framework for Explainable, Generalizable and Controllable Fake News Detection**. Findings of ACL, 2024. [[paper](https://aclanthology.org/2024.findings-acl.919/)]
 - **PCoT: Persuasion-Augmented Chain of Thought for Detecting Fake News and Social Media Disinformation**. ACL, 2025. [[paper](https://aclanthology.org/2025.acl-long.1215/)]
-- **The truth becomes clearer through debate! Multi-agent systems with large language models unmask fake news**. SIGIR, 2025.
+- **The truth becomes clearer through debate! Multi-agent systems with large language models unmask fake news**. SIGIR, 2025.[[paper](https://dlnext.acm.org/doi/pdf/10.1145/3726302.3730092)]
 - **Towards Real-Time Fake News Detection under Evidence Scarcity**. arXiv, 2025. [[paper](https://arxiv.org/abs/2510.11277)]
 - **A Graph-Enhanced Defense Framework for Explainable Fake News Detection with LLM**. ACM TOIS, 2026. [[paper](https://dl.acm.org/doi/10.1145/3810244)]
 - **Are LLMs Enough for Hyperpartisan, Fake, Polarized and Harmful Content Detection? Evaluating In-Context Learning vs. Fine-Tuning**. ICWSM, 2026. [[paper](https://ojs.aaai.org/index.php/ICWSM/article/view/42712)]
-- **FactGuard: Event-Centric and Commonsense-Guided Fake News Detection**. AAAI, 2026. [[paper](https://arxiv.org/abs/2511.10281)]
+- **FactGuard: Event-Centric and Commonsense-Guided Fake News Detection**. AAAI, 2026. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/36998)]
 - **KG-CRAFT: Knowledge Graph-based Contrastive Reasoning with LLMs for Enhancing Automated Fact-checking**. EACL, 2026. [[paper](https://aclanthology.org/2026.eacl-long.302/)]
 - **Reasoning About the Unsaid: Misinformation Detection with Omission-Aware Graph Inference**. AAAI, 2026. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/37097)]
 
@@ -141,14 +142,14 @@ LLMs augment existing MID pipelines through reasoning, retrieval, context recons
 
 ### Simulation
 
-- **DELL: Generating Reactions and Explanations for LLM-Based Misinformation Detection**. arXiv, 2024. [[paper](https://arxiv.org/abs/2402.10426)]
+- **DELL: Generating Reactions and Explanations for LLM-Based Misinformation Detection**. ACL,2024. [[paper](https://aclanthology.org/2024.findings-acl.155/)]
 - **Let Silence Speak: Enhancing Fake News Detection with Generated Comments from Large Language Models**. CIKM, 2024. [[paper](https://dl.acm.org/doi/abs/10.1145/3627673.3679519)]
 - **Do not wait: Preemptive rumor detection with cooperative LLMs and accessible social context**. Information Processing & Management, 2025. [[paper](https://doi.org/10.1016/j.ipm.2024.103995)]
 - **Exploring Large Language Models for Effective Rumor Detection on Social Media**. NAACL, 2025. [[paper](https://aclanthology.org/2025.naacl-long.128/)]
 - **Group-Adaptive Adversarial Learning for Robust Fake News Detection Against Malicious Comments**. arXiv, 2025. [[paper](https://arxiv.org/abs/2510.09712)]
 - **MPCG: Multi-Round Persona-Conditioned Generation for Modeling the Evolution of Misinformation with LLMs**. EMNLP, 2025. [[paper](https://aclanthology.org/2025.emnlp-main.1727/)]
 - **Simulating Rumor Spreading in Social Networks using LLM Agents**. arXiv, 2025. [[paper](https://arxiv.org/abs/2502.01450)]
-- **Structure-aware Propagation Generation with Large Language Models for Fake News Detection**. arXiv, 2025. [[paper](https://arxiv.org/abs/2510.12125)]
+- **Structure-aware Propagation Generation with Large Language Models for Fake News Detection**. ACL, 2025. [[paper](https://aclanthology.org/2025.findings-emnlp.714/)]
 - **Synergizing LLMs with Global Label Propagation for Multimodal Fake News Detection**. ACL, 2025. [[paper](https://aclanthology.org/2025.acl-long.72/)]
 - **CLEAR: Prototype-conditioned Flow Purification for LLM-based Rumor Detection with Dirichlet Evidential Learning**. Information Processing & Management, 2026. [[paper](https://doi.org/10.1016/j.ipm.2026.104887)]
 
@@ -156,12 +157,12 @@ LLMs augment existing MID pipelines through reasoning, retrieval, context recons
 
 - **SNIFFER: Multimodal Large Language Model for Explainable Out-of-Context Misinformation Detection**. CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Qi_SNIFFER_Multimodal_Large_Language_Model_for_Explainable_Out-of-Context_Misinformation_Detection_CVPR_2024_paper.html)]
 - **EXCLAIM: An Explainable Cross-Modal Agentic System for Misinformation Detection with Hierarchical Retrieval**. arXiv, 2025. [[paper](https://arxiv.org/abs/2504.06269)]
-- **MERIT: Modular Framework for Multimodal Misinformation Detection with Web-Grounded Reasoning**. arXiv, 2025. [[paper](https://arxiv.org/abs/2510.17590)]
+- **MERIT: Modular Framework for Multimodal Misinformation Detection with Web-Grounded Reasoning**. arXiv, 2025. [[paper](https://arxiv.org/abs/2412.05155)]
 - **Multimodal Fact-Checking with Vision Language Models: A Probing Classifier based Solution with Embedding Strategies**. COLING, 2025. [[paper](https://arxiv.org/abs/2412.05155)]
 - **TRUST-VL: An Explainable News Assistant for General Multimodal Misinformation Detection**. EMNLP, 2025. [[paper](https://aclanthology.org/2025.emnlp-main.284/)]
 - **ADOSE: Active Multi-source Domain Adaptation for Multimodal Fake News Detection**. AAAI, 2026. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/39125)]
 - **RAMA: Retrieval-Augmented Multi-Agent Framework for Misinformation Detection in Multimodal Fact-Checking**. WWW Companion, 2026. [[paper](https://doi.org/10.1145/3774905.3796483)]
-- **T^2Agent A Tool-augmented Multimodal Misinformation Detection Agent with Monte Carlo Tree Search**. AAAI, 2026. [[paper](https://arxiv.org/abs/2505.19768)]
+- **T^2Agent A Tool-augmented Multimodal Misinformation Detection Agent with Monte Carlo Tree Search**. AAAI, 2026. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/36977)]
 - **Toward Multimodal Fake News Detection by Multi-perspective Rationale Generation and Verification**. AAAI, 2026. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/36965)]
 
 ---
@@ -174,23 +175,23 @@ AIGC-era MID focuses on detection targets introduced or amplified by generative 
 
 - **Fake News in Sheep's Clothing: Robust Fake News Detection Against LLM-Empowered Style Attacks**. KDD, 2024. [[paper](https://dl.acm.org/doi/abs/10.1145/3637528.3671977)]
 - **Adversarial Style Augmentation via Large Language Model for Robust Fake News Detection**. WWW, 2025. [[paper](https://dl.acm.org/doi/abs/10.1145/3696410.3714569)]
-- **Attacking Misinformation Detection Using Adversarial Examples Generated by Language Models**. EMNLP, 2025. [[paper](https://arxiv.org/abs/2410.20940)]
-- **Debate-to-Detect: Reformulating Misinformation Detection as a Real-World Debate with Large Language Models**. EMNLP, 2025. [[paper](https://arxiv.org/abs/2505.18596)]
-- **Kill Two Birds with One Stone: Generalized and Robust AI-Generated Text Detection via Dynamic Perturbations**. NAACL, 2025. [[paper](https://arxiv.org/abs/2504.21019)]
+- **Attacking Misinformation Detection Using Adversarial Examples Generated by Language Models**. EMNLP, 2025. [[paper](https://aclanthology.org/2025.emnlp-main.1405/)]
+- **Debate-to-Detect: Reformulating Misinformation Detection as a Real-World Debate with Large Language Models**. EMNLP, 2025. [[paper](https://aclanthology.org/2025.emnlp-main.764/)]
+- **Kill Two Birds with One Stone: Generalized and Robust AI-Generated Text Detection via Dynamic Perturbations**. NAACL, 2025. [[paper](https://aclanthology.org/2025.naacl-long.446/)]
 - **RetrieverGuard: Empowering Information Retrieval to Combat LLM-Generated Misinformation**. Findings of NAACL, 2025. [[paper](https://aclanthology.org/2025.findings-naacl.249/)]
 - **Cross-Prompt Generalization in Detecting AI-Generated Fake News Using Interpretable Linguistic Features**. arXiv, 2026. [[paper](https://arxiv.org/abs/2606.04199)]
 - **Human vs. Machine Deception: Distinguishing AI-Generated and Human-Written Fake News Using Ensemble Learning**. arXiv, 2026. [[paper](https://arxiv.org/abs/2604.09960)]
 
 ### Misinformative Hallucinations
 
-- **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**. EMNLP, 2023. [[paper](https://arxiv.org/abs/2303.08896)]
+- **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**. EMNLP, 2023. [[paper](https://aclanthology.org/2023.emnlp-main.557/)]
 - **ReEval: Automatic Hallucination Evaluation for Retrieval-Augmented Large Language Models via Transferable Adversarial Attacks**. Findings of NAACL, 2024. [[paper](https://aclanthology.org/2024.findings-naacl.85/)]
 - **Consistency Is the Key: Detecting Hallucinations in LLM Generated Text By Checking Inconsistencies About Key Facts**. arXiv, 2025. [[paper](https://arxiv.org/abs/2511.12236)]
-- **HalluciNot: Hallucination Detection Through Context and Common Knowledge Verification**. arXiv, 2025. [[paper](https://arxiv.org/abs/2504.07069)]
+- **HalluciNot: Hallucination Detection Through Context and Common Knowledge Verification**. arXiv, 2025. [[paper](https://iclr.cc/virtual/2026/poster/10007034)]
 - **Zero-knowledge LLM hallucination detection and mitigation through fine-grained cross-model consistency**. EMNLP Industry Track, 2025. [[paper](https://aclanthology.org/2025.emnlp-industry.139/)]
 - **FactSelfCheck: Fact-Level Black-Box Hallucination Detection for LLMs**. Findings of EACL, 2026. [[paper](https://aclanthology.org/2026.findings-eacl.296/)]
 - **Hallucination Begins Where Saliency Drops**. ICLR, 2026. [[paper](https://arxiv.org/abs/2601.20279)]
-- **HalluGuard: Demystifying Data-Driven and Reasoning-Driven Hallucinations in LLMs**. ICLR, 2026. [[paper](https://arxiv.org/abs/2601.18753)]
+- **HalluGuard: Demystifying Data-Driven and Reasoning-Driven Hallucinations in LLMs**. ICLR, 2026. [[paper](https://iclr.cc/virtual/2026/poster/10008801)]
 - **PHPFND: Detecting Fake News via Post-Hoc Processing of LLMs Hallucination**. AAAI, 2026. [[paper](https://doi.org/10.1609/aaai.v40i1.37050)]
 - **The Energy of Falsehood: Detecting Hallucinations via Diffusion Model Likelihoods**. FEVER, 2026. [[paper](https://aclanthology.org/2026.fever-1.4/)]
 - **TruthfulRAG: Resolving Factual-level Conflicts in Retrieval-Augmented Generation with Knowledge Graphs**. AAAI, 2026. [[paper](https://doi.org/10.1609/aaai.v40i38.40489)]
@@ -204,10 +205,10 @@ AIGC-era MID focuses on detection targets introduced or amplified by generative 
 - **Spot the Fake: Large Multimodal Model-Based Synthetic Image Detection with Artifact Explanation**. arXiv, 2025. [[paper](https://arxiv.org/abs/2503.14905)]
 - **TruthLens: Explainable DeepFake Detection for Face Manipulated and Fully Synthetic Data**. arXiv, 2025. [[paper](https://arxiv.org/abs/2503.15867)]
 - **Investigating Self-Supervised Representations for Audio-Visual Deepfake Detection**. CVPR, 2026. [[paper](https://arxiv.org/abs/2511.17181)]
-- **PRPO: Paragraph-level Policy Optimization for Vision-Language Deepfake Detection**. ICML, 2026. [[paper](https://arxiv.org/abs/2509.26272)]
+- **PRPO: Paragraph-level Policy Optimization for Vision-Language Deepfake Detection**. ICML, 2026. [[paper](https://icml.cc/virtual/2026/poster/65679)]
 - **Revealing the Truth with ConLLM for Detecting Multi-Modal Deepfakes**. Findings of EACL, 2026. [[paper](https://arxiv.org/abs/2601.17530)]
 - **TranX-Adapter: Bridging Artifacts and Semantics within MLLMs for Robust AI-generated Image Detection**. arXiv, 2026. [[paper](https://arxiv.org/abs/2602.21716)]
-- **Veritas: Generalizable Deepfake Detection via Pattern-Aware Reasoning**. ICLR, 2026. [[paper](https://arxiv.org/abs/2508.21048)]
+- **Veritas: Generalizable Deepfake Detection via Pattern-Aware Reasoning**. ICLR, 2026. [[paper](https://iclr.cc/virtual/2026/poster/10011453)]
 
 ---
 
